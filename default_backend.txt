@@ -1,4 +1,1 @@
-kubectl create -f https://raw.githubusercontent.com/kubernetes/contrib/master/ingress/controllers/nginx/examples/default-backend.yaml
-
-kubectl create -f https://raw.githubusercontent.com/kubernetes/contrib/master/ingress/controllers/nginx/examples/default-backend.yaml
-kubectl expose rc default-http-backend --port=80 --target-port=8080 --name=default-http-backend
+kubectl create secret tls tls-certificate --key <key-file>.key --cert <certificate-file>.crt
