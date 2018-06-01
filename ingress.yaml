@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
     - hosts:
-      - api.kubernetes_exercise.com
+      - api.kubernetesingress.com
       secretName: tls-certificate
   rules:
-  - host: api.kubernetes_exercise.com
+  - host: api.kubernetesingress.com
     http:
       paths:
       - path: /
